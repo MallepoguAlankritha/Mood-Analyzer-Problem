@@ -1,10 +1,13 @@
 package bridelabz.MoodAnalyzer;
 
 public class MoodAnalyser {
-
-	public static void main(String[] args) {
-		System.out.println("welcome");
-
+		public static String analyseMood(String message) {
+	        if (message.toLowerCase().contains("sad")) {
+	        }
+	        return "Sad";
+	    }
 	}
 
-}
+	
+
+
